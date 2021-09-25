@@ -13,6 +13,8 @@
     src: url(../Fonts/Gotham-Medium.ttf)
 }
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -36,6 +38,7 @@ body {
 ======================================================================================== */
 .navcont {
     padding-top: 25px;
+
 }
 
 
@@ -43,7 +46,6 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
-
 }
 
 .lain {
@@ -108,20 +110,35 @@ a.anav:visited {
 
 }
 
-.mainhead4 {
-    font-size: 20px;
-    text-align: center;
-}
-
-.ab {
-    color: white;
-    border: solid 1px white;
-    border-radius: 50%;
-    padding: 12.5px 20px
-}
-
 .test {
     margin-top: 1500px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.mainhead4 {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.ap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    top: 9px;
+    left: 9px;
+    text-decoration: none;
 }
 
 .icons {
@@ -135,4 +152,61 @@ a.anav:visited {
 
 .icons:visited {
     border-bottom: solid 6px #11749e;
+}
+
+@media screen and (max-width: 1200px) {
+    a.anav{
+        margin:0px 5px;
+    }
+    .logo{
+        margin: 10px;
+    }
+    a.icons{
+        padding: 0px 10px 40px 10px;
+    }   
+}
+@media screen and (max-width: 950px){
+    .background{
+        min-height: 100vh;
+        min-width: 100vh;
+    }
+    .mainhead{
+        font-size:70px ;
+        margin-top: 100px;
+    }
+    .mainhead2{
+        letter-spacing: 10px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height: 264px;
+        align-content:space-between;
+        justify-content: flex-end;
+    }
+    .logo{
+        align-self: flex-start;
+    }
+    a.anav{
+        padding: 10px 0px;
+        margin:0px;
+    }
+    a.icons{
+        padding:23.5px;
+        margin:0px;
+    }
+    a.icons:hover{
+        border:none;
+    }
+    a.icons:visited{
+        border:none;
+    }
+    a.anav:hover{
+        border:none;
+    }
+    a.anav:visited{
+        border:none;
+    }
+        
 }
