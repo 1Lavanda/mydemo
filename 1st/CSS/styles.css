@@ -13,6 +13,15 @@
     src: url(../Fonts/Gotham-Medium.ttf)
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url(../Fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "GothamBook";
+    src: url(../Fonts/Gotham-Book.ttf);
+}
 
 
 html {
@@ -154,59 +163,638 @@ a.anav:visited {
     border-bottom: solid 6px #11749e;
 }
 
+/* Header
+======================================================================================== */
+
+/* Main 
+================================================================================================ */
+
+.bg2 {
+    background-image: url(../Pic/creatives/bg2.png);
+    height: 740px;
+    background-size: cover;
+}
+
+.back {
+    font-family: Roboto;
+    font-size: 210px;
+    text-align: center;
+    opacity: 0.18;
+    color: white;
+}
+
+.front {
+    position: relative;
+    font-family: Gotham;
+    font-size: 37.5px;
+    text-align: center;
+    color: #ffffff;
+    top: -150px;
+}
+
+.fi1 {
+    margin-left: 60px;
+}
+
+.fi2 {
+    margin-left: 60px;
+}
+
+.fi3 {
+    margin-left: 60px;
+}
+
+.fi4 {
+    margin-right: 60px;
+    margin-left: 60px;
+    position: relative;
+}
+
+.t1 {
+    font-family: GothamMedium;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+.t2 {
+    font-family: GothamMedium;
+    color: white;
+    margin: 0;
+    margin-left: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    position: absolute;
+}
+
+.t3 {
+    font-family: GothamMedium;
+    color: white;
+    margin: 0;
+    margin-left: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    position: absolute;
+}
+
+.t4 {
+    font-family: GothamMedium;
+    color: white;
+    margin: 0;
+    margin-left: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    margin-right: 60px;
+    position: absolute;
+}
+
+.ti {
+    font-size: 15px;
+    font-family: GothamBook;
+    margin-top: 75px;
+    width: 260px;
+    text-align: center;
+    color: white;
+}
+
+.mflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.mflexb {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d1 {
+    width: 50%;
+    height: 600px;
+    background-color: #222222;
+}
+
+.di1 {
+    margin-top: 65px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    font-family: GothamBook;
+    font-size: 13px;
+    color: white;
+}
+
+.mnameb {
+    color: white;
+    font-family: GothamMedium;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 0;
+}
+
+.defpb {
+    color: white;
+    margin-left: 200px;
+    margin-right: 100px;
+    font-family: GothamBook;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.d2 {
+    background-image: url(../Pic/1p.png);
+    background-size: cover;
+    width: 50%;
+}
+
+.d3 {
+    background-image: url(../Pic/2p.png);
+    background-size: cover;
+    width: 50%;
+}
+
+.d4 {
+    width: 50%;
+    height: 600px;
+    background-color: #f3f3f3;
+}
+
+.di4 {
+    margin-right: 250px;
+    margin-top: 65px;
+    margin-left: 75px;
+    font-family: GothamBook;
+    font-size: 13px;
+    color: black;
+}
+
+.mnamew {
+    margin-right: 250px;
+    margin-left: 75px;
+    color: black;
+    font-family: GothamMedium;
+    margin-top: 0;
+}
+
+.defpw {
+    margin-right: 250px;
+    margin-left: 75px;
+    color: black;
+    font-family: GothamBook;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.lbbg {
+    background-color: #ffffff;
+    height: 1020px;
+    block-size: cover;
+
+}
+
+.backb {
+    font-family: Roboto;
+    font-size: 247px;
+    text-align: center;
+    opacity: 0.18;
+    user-select: none;
+    color: black
+}
+
+.frontb {
+    position: relative;
+    font-family: GothamMedium;
+    font-size: 37.5px;
+    color: black;
+    text-align: center;
+    top: -175px;
+}
+
+.wlc {
+    font-family: GothamBook;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fbfsc {
+    margin-top: 50px;
+    display: flex;
+    min-width: 1170px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bimg {
+    width: 100%;
+}
+
+.fscc {
+    min-width: 270px;
+    min-height: 280px;
+}
+
+h3 {
+    font-family: GothamMedium;
+    color: #11749e;
+}
+
+.bp {
+    color: black;
+    font-size: 15px;
+    font-family: GothamBook;
+    text-align: center;
+    max-width: 280px;
+    line-height: 24px;
+}
+
+.bg3 {
+    width: 100%;
+    background-color: #11749e;
+    height: 355px;
+    padding-top: 100px;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%px;
+    height: 140px;
+}
+
+.pcar {
+    display: inline;
+    font-family: GothamBook;
+    font-size: 15px;
+    margin: 0 25px;
+    color: white;
+    line-height: 24px;
+}
+
+.bg4 {
+    height: 850px;
+    width: 100%;
+    background-image: url(../pic/bg4.png);
+    background-size: cover;
+}
+
+.bigflex {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.bigflexele {
+    width: 50%;
+}
+
+.bfele1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    margin-top: 200px;
+    padding-right: 125px;
+}
+
+.p41 {
+    color: white;
+    font-size: 25px;
+    font-family: GothamMedium;
+    line-height: 36px;
+}
+
+.p42 {
+    color: white;
+    font-size: 15px;
+    font-family: GothamBook;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+
+.p43 {
+    background-color: #11749e;
+    color: white;
+    font-size: 15px;
+    font-family: GothamMedium;
+    line-height: 24px;
+    padding: 10px 130px 10px 10px;
+    align-self: flex-start;
+}
+
+.p44 {
+    background-color: #11749e;
+    color: white;
+    font-size: 15px;
+    font-family: GothamMedium;
+    line-height: 24px;
+    padding: 10px 210px 10px 10px;
+    align-self: flex-start;
+}
+
+.p45 {
+    background-color: #11749e;
+    color: white;
+    font-size: 15px;
+    font-family: GothamMedium;
+    line-height: 24px;
+    padding: 10px 150px 10px 10px;
+    align-self: flex-start;
+}
+
+
+.bfele2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg5 {
+    height: 950px;
+    width: 100%;
+    background-color: white;
+}
+
+.backt {
+    font-family: Roboto;
+    font-size: 247px;
+    text-align: center;
+    opacity: 0.18;
+    user-select: none;
+    color: black
+}
+
+.frontt {
+    position: relative;
+    font-family: GothamMedium;
+    font-size: 37.5px;
+    color: black;
+    text-align: center;
+    top: -175px;
+}
+
+.undert {
+    font-family: GothamBook;
+    font-size: 30px;
+    text-align: center;
+}
+
+.mflex1 {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height: 415px;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.ipers {
+    size: cover;
+}
+
+.mf2i {
+    position: relative;
+    top: -50px;
+    width: 220px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.wname {
+    font-family: GothamMedium;
+    font-size: 20px;
+    color: #11749e;
+}
+
+.ww {
+    font-family: GothamMedium;
+    font-size: 15px;
+}
+
+.bg6 {
+    background-image: url(../Pic/bg6.png);
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+}
+
+.backc {
+    font-family: Roboto;
+    font-size: 247px;
+    text-align: center;
+    opacity: 0.18;
+    user-select: none;
+    color: white;
+    padding-top: 140px;
+}
+
+.frontc {
+    position: relative;
+    font-family: GothamMedium;
+    font-size: 37.5px;
+    color: white;
+    text-align: center;
+    top: -175px;
+}
+.lflex{
+    display: flex;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 100%;
+    justify-content: space-between;
+}
+.smallin{
+    background-color: transparent;
+    border:1px solid white;
+    height: 48px;
+    width: 30%;
+    font-family: GothamBook;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    
+}
+.bigboy{
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+    border:1px solid white;
+    font-family: GothamBook;
+    font-size: 15px;
+    color: white;
+    overflow: scroll;
+    padding: 10px;
+    margin-top: 40px;
+}
+.smallin::placeholder{
+ font-family: GothamBook;
+ font-size: 15px;
+ color: white;
+}
+.bigboy::placeholder{
+ font-family: GothamBook;
+ font-size: 15px;
+ color: white;
+}
+.buttoni{
+    font-family: GothamMedium;
+    font-size: 24px;
+    color: white;
+    background-color: #11749e;
+    margin-top: 40px;
+    width: 220px;
+    height: 65px;
+    border-color: white;
+}
+.bc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+}
+
+
+
+/* Main 
+================================================================================================ */
+
+.footerbg{
+    height: 330px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../Pic/footer.png);
+}
+.bg7{
+    width: 100%;
+    height: 115px;
+    background-color: #222222;
+}
+.end{
+    font-family: Roboto;
+    font-size: 13px;
+    color: white;
+    padding:50px 0px;
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1200px) {
-    a.anav{
-        margin:0px 5px;
+    a.anav {
+        margin: 0px 5px;
     }
-    .logo{
+
+    .logo {
         margin: 10px;
     }
-    a.icons{
+
+    a.icons {
         padding: 0px 10px 40px 10px;
-    }   
+    }
+
+    .cont2 {
+        position: relative;
+    }
+
+    .mflexw {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mflex {
+        flex-wrap: wrap;
+        width: 600px;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        height: 600px;
+    }
+
+    .bf {
+        display: none;
+    }
+
 }
-@media screen and (max-width: 950px){
-    .background{
+
+@media screen and (max-width: 950px) {
+    .background {
         min-height: 100vh;
         min-width: 100vh;
     }
-    .mainhead{
-        font-size:70px ;
+
+    .mainhead {
+        font-size: 70px;
         margin-top: 100px;
     }
-    .mainhead2{
+
+    .mainhead2 {
         letter-spacing: 10px;
     }
-    .nav{
+
+    .nav {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         max-height: 264px;
-        align-content:space-between;
+        align-content: space-between;
         justify-content: flex-end;
     }
-    .logo{
+
+    .logo {
         align-self: flex-start;
     }
-    a.anav{
+
+    a.anav {
         padding: 10px 0px;
-        margin:0px;
+        margin: 0px;
     }
-    a.icons{
-        padding:23.5px;
-        margin:0px;
+
+    a.icons {
+        padding: 23.5px;
+        margin: 0px;
     }
-    a.icons:hover{
-        border:none;
+
+    a.icons:hover {
+        border: none;
     }
-    a.icons:visited{
-        border:none;
+
+    a.icons:visited {
+        border: none;
     }
-    a.anav:hover{
-        border:none;
+
+    a.anav:hover {
+        border: none;
     }
-    a.anav:visited{
-        border:none;
+
+    a.anav:visited {
+        border: none;
     }
-        
+
 }
