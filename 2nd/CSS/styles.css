@@ -7,7 +7,11 @@ body {
     margin: 0;
 }
 
-
+.midflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* HEADER =========================================================================================== */
 
@@ -115,129 +119,101 @@ body {
     align-items: center;
 }
 
-.imgf{
+.imgf {
     margin-bottom: -120px;
 }
 
-.bg2{
-    padding-bottom: 50px;
-}
 
+.bg2{
+    padding-bottom: 500px;
+}
 .container1400{
-    margin: 0 auto;
     max-width: 1400px;
     width: 100%;
+    margin: 0 auto;
 }
 .mainflex{
+    height: 370px;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
     margin-top: 220px;
 }
-.mainflexin1{
+.flexin{
+    width: 33.33%;
     display: flex;
-    width: 100%;
-}
-.mainflexin1item{
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    width: 20%;
 }
-.mainflexin2{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    text-align: center;
+.pic{
+
 }
-.mainflexin2item{
+.maint{
     font-size: 24px;
     font-weight: 700;
-    width: 20%;
-}
-.mainflexin3{
-    display: flex;
-    width: 100%;
-    justify-content:space-between;
+    text-align: center;
 
 }
-.mainflexin3item{
-    width: 20%;
-    max-height: 105px;
-    font-size: 18px;
+.text{
     color: #8492af;
-    font-weight: 400;
-    text-align:center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.mainflexin4{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-.mainflexin4item{
-    width: 20%;
+    font-size: 18px;
+    line-height: 30px;
     text-align: center;
-    margin-top: 30px;
 }
-.stylea{
-    text-decoration: none;
+.mainbutton{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color:transparent;
     font-size: 18px;
     font-weight: 700;
-    color: black;
-    border: 1px solid #8492af;
-    border-radius: 30px;
-    padding: 5px 75px;
-
 }
-.stylea:hover{
-    color: red;
+.buttontext{
+    text-decoration: none;
+    color: black;
+    padding: 15px 75px;
+}
+.mainbutton:hover{
     border-color: red;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1200px){
-    .stylea{
-        padding: 5px 40px;
-    }
+.buttontext:hover{
+    color: red;
 }
+
+.flexinele{
+    height: 25% ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -256,14 +232,14 @@ body {
     .logo {
         margin-left: 0
     }
-    .imgf{
-        display:none;
-    }
-    .mainflex{
-        margin-top: 100px;
+
+    .imgf {
+        display: none;
     }
 
+
 }
+
 
 
 @media screen and (max-width: 450px) {
@@ -287,3 +263,4 @@ body {
         margin: 0;
     }
 }
+
